@@ -16,7 +16,9 @@ A lightweight Chrome extension that highlights sponsored and advertisement secti
 
 ## 📸 Screenshots
 
-_Add screenshots here showing before/after views of Google search results_
+<img width="1230" height="946" alt="image" src="https://github.com/user-attachments/assets/b6af2e6b-ec53-4b7c-9018-25afa4d911a7" />
+
+<img width="1270" height="945" alt="image" src="https://github.com/user-attachments/assets/98bbb601-5d0f-47e1-8e0c-12667c060d11" />
 
 ## 🚀 Installation
 
