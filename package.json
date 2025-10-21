@@ -1,0 +1,34 @@
+{
+    "name": "google-ads-highlighter",
+    "version": "1.0.0",
+    "description": "Chrome extension that highlights sponsored and advertisement sections in Google search results",
+    "main": "src/content.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kasunshanaka/google-ads-highlighter.git"
+    },
+    "keywords": [
+        "chrome-extension",
+        "google",
+        "ads",
+        "sponsored",
+        "search",
+        "highlight",
+        "advertising"
+    ],
+    "author": "Kasun Shanaka <kshanaka10@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kasunshanaka/google-ads-highlighter/issues"
+    },
+    "homepage": "https://github.com/kasunshanaka/google-ads-highlighter#readme",
+    "engines": {
+        "chrome": ">=88"
+    },
+    "dependencies": {
+        "canvas": "^3.2.0"
+    }
+}

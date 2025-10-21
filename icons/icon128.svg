@@ -1,0 +1,47 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDB515;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFCA28;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="64" cy="64" r="64" fill="url(#bgGrad)"/>
+  
+  <!-- Shadow for magnifying glass -->
+  <ellipse cx="68" cy="68" rx="32" ry="32" fill="#000000" opacity="0.1"/>
+  
+  <!-- Magnifying glass handle -->
+  <line x1="82" y1="82" x2="106" y2="106" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+  <line x1="82" y1="82" x2="106" y2="106" stroke="#2C2C2C" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Magnifying glass outer rim -->
+  <circle cx="58" cy="58" r="34" fill="none" stroke="#1A1A1A" stroke-width="8"/>
+  
+  <!-- Magnifying glass glass surface -->
+  <circle cx="58" cy="58" r="30" fill="white"/>
+  <circle cx="58" cy="58" r="30" fill="url(#glassGrad)"/>
+  
+  <!-- Content inside magnifying glass -->
+  <!-- Document/search result representation -->
+  <rect x="42" y="45" width="32" height="4" rx="2" fill="#E0E0E0"/>
+  <rect x="42" y="52" width="28" height="3" rx="1.5" fill="#E0E0E0"/>
+  <rect x="42" y="58" width="24" height="3" rx="1.5" fill="#E0E0E0"/>
+  
+  <!-- "Sponsored" badge -->
+  <rect x="42" y="66" width="32" height="8" rx="2" fill="#FDB515" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="58" y="72" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#1A1A1A" text-anchor="middle">AD</text>
+  
+  <!-- Highlight sparkle effect -->
+  <path d="M90 28 L93 38 L103 38 L95 44 L98 54 L90 48 L82 54 L85 44 L77 38 L87 38 Z" fill="#FF6B6B" stroke="#1A1A1A" stroke-width="1.5"/>
+  <path d="M100 18 L101.5 22 L105.5 22 L102 24.5 L103.5 28.5 L100 26 L96.5 28.5 L98 24.5 L94.5 22 L98.5 22 Z" fill="#FFD93D" stroke="#1A1A1A" stroke-width="1"/>
+  
+  <!-- Gloss effect -->
+  <path d="M 40 45 Q 45 40 55 38" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6" fill="none"/>
+</svg>

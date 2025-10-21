@@ -1,0 +1,20 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="24" fill="#FDB515"/>
+  
+  <!-- Inner highlight circle -->
+  <circle cx="24" cy="24" r="20" fill="#FFCA28"/>
+  
+  <!-- Magnifying glass handle -->
+  <line x1="32" y1="32" x2="40" y2="40" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Magnifying glass circle -->
+  <circle cx="22" cy="22" r="12" fill="none" stroke="#1A1A1A" stroke-width="3"/>
+  <circle cx="22" cy="22" r="10" fill="white" opacity="0.3"/>
+  
+  <!-- "Ad" text inside magnifying glass -->
+  <text x="22" y="27" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1A1A1A" text-anchor="middle">Ad</text>
+  
+  <!-- Small highlight star -->
+  <path d="M28 12 L29 15 L32 15 L30 17 L31 20 L28 18 L25 20 L26 17 L24 15 L27 15 Z" fill="#FF6B6B" stroke="#1A1A1A" stroke-width="0.5"/>
+</svg>

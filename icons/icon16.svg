@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="8" cy="8" r="8" fill="#FDB515"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="6.5" cy="6.5" r="3" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <line x1="8.5" y1="8.5" x2="11" y2="11" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Dollar sign for "Sponsored" indicator -->
+  <text x="6.5" y="7.5" font-family="Arial, sans-serif" font-size="3" font-weight="bold" fill="#1A1A1A" text-anchor="middle">$</text>
+</svg>

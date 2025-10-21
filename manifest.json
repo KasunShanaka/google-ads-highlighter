@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "Google Sponsored Results Highlighter",
+    "version": "1.0.0",
+    "description": "Highlights sponsored and advertisement sections in Google search results with distinctive visual styling for better visibility.",
+    "author": "Kasun Shanaka",
+    "homepage_url": "https://github.com/kasunshanaka/google-ads-highlighter",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.google.com/search*",
+                "*://www.google.co.uk/search*",
+                "*://www.google.ca/search*",
+                "*://www.google.com.au/search*",
+                "*://www.google.de/search*",
+                "*://www.google.fr/search*",
+                "*://www.google.es/search*",
+                "*://www.google.it/search*",
+                "*://www.google.co.in/search*",
+                "*://www.google.co.jp/search*",
+                "*://www.google.com.br/search*"
+            ],
+            "js": [
+                "src/content.js"
+            ],
+            "run_at": "document_idle",
+            "all_frames": false
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        },
+        "default_title": "Google Sponsored Results Highlighter"
+    }
+}
